@@ -5,11 +5,11 @@ got = -1,
 len = document.getElementsByTagName('script').length;
 while (i <= len && got == -1) {
 	var js_url = document.getElementsByTagName('script')[i].src,
-	got = js_url.indexOf('/post.js');
+	got = js_url.indexOf('https://longsays.googlecode.com/svn/trunk/js/post.js');
 	i++
 }
 var edit_mode = '1',
-ajax_php_url = js_url.replace('/post.js', '/../inc/comments-ajax.php'),
+ajax_php_url = js_url.replace('https://longsays.googlecode.com/svn/trunk/js/post.js', 'https://longsays.googlecode.com/svn/trunk/css/inc/comments-ajax.php'),
 wp_url = js_url.substr(0, js_url.indexOf('wp-content')),
 txt1 = '<div id="loading">正在提交, 请稍候...</div>',
 txt2 = '<div id="error">#</div>',
