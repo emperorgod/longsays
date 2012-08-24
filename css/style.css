@@ -148,7 +148,7 @@ input.btn,button.btn{cursor:pointer;border-top:0;border-right:0;border-left:0}
 .mypages li{float:left;margin-bottom:8px;position:relative}
 .my-a{width:104px;height:24px;display:inline-block;position:relative;border:1px solid #ccc;border-radius:2px;background-color:#FFF;margin-right:8px;line-height:24px;color:#666}
 .my-a span{width:24px;height:24px;background-color:#fbfbfb;float:left;border-right:1px solid #ccc;margin-right:10px;opacity:.8;filter:alpha(opacity=80);}
-.my-a strong{width:16px;height:16px;line-height:99px;overflow:hidden;margin:4px;float:left;background:url(img/share.png) no-repeat}
+.my-a strong{width:16px;height:16px;line-height:99px;overflow:hidden;margin:4px;float:left;background:url("https://longsays.googlecode.com/svn/trunk/css/img/share.png") no-repeat}
 .my-a em{display:inline-block;*+float:right;margin:-12px 8px 0 0;position:relative;top:-2px;margin-left:3px;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #bbb}
 .my-tqq strong{background-position:0 -48px}
 .my-weibo strong{background-position:0 -16px}
@@ -176,7 +176,7 @@ input.btn,button.btn{cursor:pointer;border-top:0;border-right:0;border-left:0}
 
 .widget_categories ul{margin:0 -10px 8px 0;overflow: hidden;}
 .widget_categories li.cat-item{height:28px;overflow: hidden;margin-bottom:5px;float: left;width: 50%;color:#999;line-height:26px;}
-.widget_categories li.cat-item a{color:#666;display:block;background:url(img/share.png) no-repeat 7px -206px;padding:0 0 0 24px;border:1px solid #ddd;border-radius:2px;height:26px;overflow:hidden;margin-right:10px;}
+.widget_categories li.cat-item a{color:#666;display:block;background:url("https://longsays.googlecode.com/svn/trunk/css/img/share.png") no-repeat 7px -206px;padding:0 0 0 24px;border:1px solid #ddd;border-radius:2px;height:26px;overflow:hidden;margin-right:10px;}
 .widget_categories li.cat-item a:hover{border-color:#ccc;background-color:#f9f9f9;color:#444;box-shadow:1px 1px 2px #eee}
 
 .widget_calendar table{width:100%;text-align: center;padding:0 0 10px;}
@@ -193,7 +193,7 @@ input.btn,button.btn{cursor:pointer;border-top:0;border-right:0;border-left:0}
 .widget_d_comment li a:hover em{color:#aaa}
 
 /* ------------ share ------------ */
-.dshare{padding-left:20px;margin-right:10px;height:16px;line-height:16px;display:inline-block;cursor:pointer;background:url(img/share.png) no-repeat}
+.dshare{padding-left:20px;margin-right:10px;height:16px;line-height:16px;display:inline-block;cursor:pointer;background:url("https://longsays.googlecode.com/svn/trunk/css/img/share.png") no-repeat}
 .ds_qzone{background-position:0 0}
 .ds_tsina{background-position:0 -16px}
 .ds_renren{background-position:0 -32px}
