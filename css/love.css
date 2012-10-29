@@ -10,7 +10,7 @@ del{text-decoration: line-through; }
 table{border-collapse: collapse; border-spacing: 0; }
 
 /*** 通用 ***/
-body {background: url(../images/textura.png) repeat; text-align: center; font-family: Calibri, times, Arial, sans-serif; color: #FFF; }
+body {background: url(https://longsays.googlecode.com/svn/trunk/images/textura.png) repeat; text-align: center; font-family: Calibri, times, Arial, sans-serif; color: #FFF; }
 a {text-decoration: none; color: #FFF; }
 
 .wrapper {width: 980px; margin: 0 auto; text-align: left; }
