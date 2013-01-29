@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.5\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-12-07 23:18:56+00:00\n"
-"PO-Revision-Date: 2012-12-11 20:29-0500\n"
+"POT-Creation-Date: 2013-01-24 21:19:53+00:00\n"
+"PO-Revision-Date: 2013-01-24 17:39-0500\n"
 "Last-Translator: Jiehan Zheng <zheng@jiehan.org>\n"
 "Language-Team: WordPress China <wpchina@jiehan.org>\n"
 "Language: zh_CN\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: /home/jiehan/Documents/WordPress/core/trunk/\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: wp-admin/about.php:20 wp-admin/credits.php:53 wp-admin/freedoms.php:20
 msgid "Welcome to WordPress %s"
@@ -48,45 +49,65 @@ msgstr "鸣谢"
 msgid "Freedoms"
 msgstr "您的自由"
 
-#: wp-admin/about.php:37 wp-admin/includes/template.php:1830
+#: wp-admin/about.php:37 wp-admin/about.php:150
+msgid "Maintenance and Security Release"
+msgid_plural "Maintenance and Security Releases"
+msgstr[0] "维护和安全更新"
+
+#. translators: 1: WordPress version number, 2: plural number of bugs. More
+#. than one security issue.
+#: wp-admin/about.php:38 wp-admin/about.php:165
+msgid ""
+"<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
+"bug."
+msgid_plural ""
+"<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
+"bugs."
+msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
+
+#: wp-admin/about.php:40 wp-admin/about.php:168
+msgid "For more information, see <a href=\"%s\">the release notes</a>."
+msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
+
+#: wp-admin/about.php:45 wp-admin/includes/template.php:1830
 msgid "New Media Manager"
 msgstr "全新的多媒体管理器"
 
-#: wp-admin/about.php:43
+#: wp-admin/about.php:51
 msgid "Beautiful Interface"
 msgstr "界面美观"
 
-#: wp-admin/about.php:44
+#: wp-admin/about.php:52
 msgid ""
 "Adding media has been streamlined with an all-new experience, making it a "
 "breeze to upload files and place them into your posts."
 msgstr "添加媒体文件如今更为简单：上传，插入一气呵成！"
 
-#: wp-admin/about.php:47
+#: wp-admin/about.php:55
 msgid "Picturesque Galleries"
 msgstr "别致的相册设计"
 
-#: wp-admin/about.php:48
+#: wp-admin/about.php:56
 msgid ""
 "Creating image galleries is faster with drag and drop reordering, inline "
 "caption editing, and simplified controls for layout."
 msgstr ""
 "有了拖拽排序、图片说明快速编辑、简化的控件设计，我们让整理相册变得更容易。"
 
-#: wp-admin/about.php:54
+#: wp-admin/about.php:62
 msgid "New Default Theme"
 msgstr "全新默认主题"
 
-#: wp-admin/about.php:58
+#: wp-admin/about.php:66
 msgid "Introducing Twenty Twelve"
 msgstr "Twenty Twelve 全新登场"
 
-#: wp-admin/about.php:59
+#: wp-admin/about.php:67
 msgid ""
 "The newest default theme for WordPress is simple, flexible, and elegant."
 msgstr "WordPress 的最新主题。简洁、灵活、优美。"
 
-#: wp-admin/about.php:60
+#: wp-admin/about.php:68
 msgid ""
 "What makes it really shine are the design details, like the gorgeous Open "
 "Sans typeface and a fully responsive design that looks great on any device."
@@ -94,7 +115,7 @@ msgstr ""
 "细节上的设计令它与众不同。比如我们选用了美观的 Open Sans 字体、引入了响应式网"
 "页设计，在任何设备上都有很好的效果。"
 
-#: wp-admin/about.php:61
+#: wp-admin/about.php:69
 msgid ""
 "Naturally, Twenty Twelve supports all the theme features you’ve come to know "
 "and love, but it is also designed to be as great for a website as it is for "
@@ -103,15 +124,15 @@ msgstr ""
 "显然，Twenty Twelve 支持我们所有的主题特性，同时它不仅适用于博客，还适用于网"
 "站。"
 
-#: wp-admin/about.php:66
+#: wp-admin/about.php:74
 msgid "Retina Ready"
 msgstr "支持 Retina 显示屏"
 
-#: wp-admin/about.php:70
+#: wp-admin/about.php:78
 msgid "So Sharp You Can&#8217;t See the Pixels"
 msgstr "清晰到看不见像素啦"
 
-#: wp-admin/about.php:71
+#: wp-admin/about.php:79
 msgid ""
 "The WordPress dashboard now looks beautiful on high-resolution screens like "
 "those found on the iPad, Kindle Fire HD, Nexus 10, and MacBook Pro with "
@@ -122,15 +143,15 @@ msgstr ""
 "HD、Nexus 10 和配备 Retina 显示屏的 MacBook Pro 等。图标等视觉元素显示清晰、"
 "详尽。"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:84
 msgid "Smoother Experience"
 msgstr "更平滑的体验"
 
-#: wp-admin/about.php:80
+#: wp-admin/about.php:88
 msgid "Better Accessibility"
 msgstr "增强的可用性"
 
-#: wp-admin/about.php:81
+#: wp-admin/about.php:89
 msgid ""
 "WordPress supports more usage modes than ever before. Screenreaders, touch "
 "devices, and mouseless workflows all have improved ease of use and "
@@ -139,11 +160,11 @@ msgstr ""
 "WordPress 支持了更广泛的使用方式。读屏软件、触摸设备、纯键盘操作等工作流程都"
 "变得简洁明了。"
 
-#: wp-admin/about.php:83
+#: wp-admin/about.php:91
 msgid "More Polish"
 msgstr "精致设计"
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:92
 msgid ""
 "A number of screens and controls have been refined. For example, a new color "
 "picker makes it easier for you to choose that perfect shade of blue."
@@ -151,15 +172,15 @@ msgstr ""
 "本版本还包含了对一些页面的细节优化。比如，我们的新选色器让您轻松选到您要的那"
 "种蓝色。"
 
-#: wp-admin/about.php:89
+#: wp-admin/about.php:97
 msgid "Under the Hood"
 msgstr "面板之下"
 
-#: wp-admin/about.php:93
+#: wp-admin/about.php:101
 msgid "Meta Query Additions"
 msgstr "元查询特性的增强"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:102
 msgid ""
 "The <code>WP_Comment_Query</code> and <code>WP_User_Query</code> classes now "
 "support meta queries just like <code>WP_Query.</code> Meta queries now "
@@ -169,11 +190,11 @@ msgstr ""
 "<code>WP_Query</code> 一样，支持了元查询。元查询功能添加了无需指定元 key 的对"
 "象查询方式。"
 
-#: wp-admin/about.php:97
+#: wp-admin/about.php:105
 msgid "Post Objects"
 msgstr "“Post”文章对象"
 
-#: wp-admin/about.php:98
+#: wp-admin/about.php:106
 msgid ""
 "Post objects are now instances of a <code>WP_Post</code> class, which "
 "improves performance by loading selected properties on demand."
@@ -181,11 +202,11 @@ msgstr ""
 "“Post”对象变成了 <code>WP_Post</code> 类的实例，通过按需加载的方法，带来了性"
 "能上的增强。"
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:109
 msgid "Image Editing API"
 msgstr "图像编辑 API"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:110
 msgid ""
 "The <code>WP_Image_Editor</code> class abstracts image editing functionality "
 "such as cropping and scaling, and uses ImageMagick when available."
@@ -193,20 +214,20 @@ msgstr ""
 "<code>WP_Image_Editor</code> 类将图像编辑功能抽象化，并在 ImageMagick 可用时"
 "使用它。"
 
-#: wp-admin/about.php:108
+#: wp-admin/about.php:116
 msgid "Multisite Improvements"
 msgstr "多站点功能增强"
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:117
 msgid ""
 "<code>switch_to_blog()</code> is now significantly faster and more reliable."
 msgstr "<code>switch_to_blog()</code> 比以往更快、更可靠。"
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:120
 msgid "XML-RPC API"
 msgstr "XML-RPC API"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:121
 msgid ""
 "The <a href=\"%s\">WordPress API</a> is now always enabled, and supports "
 "fetching users, editing profiles, managing post revisions, and searching "
@@ -215,15 +236,15 @@ msgstr ""
 "<a href=\"%s\">WordPress API</a> 永远启用，支持获取用户、编辑个人资料、管理文"
 "章历史版本和搜索文章。"
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:121
 msgid "http://codex.wordpress.org/XML-RPC_WordPress_API"
 msgstr "http://codex.wordpress.org/zh-cn:XML-RPC_WordPress_API"
 
-#: wp-admin/about.php:116 wp-admin/credits.php:160
+#: wp-admin/about.php:124 wp-admin/credits.php:160
 msgid "External Libraries"
 msgstr "外部库"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:125
 msgid ""
 "WordPress now includes the <a href=\"%1$s\">Underscore</a> and <a href=\"%2$s"
 "\">Backbone</a> JavaScript libraries. TinyMCE, jQuery, jQuery UI, and "
@@ -233,72 +254,52 @@ msgstr ""
 "\">Backbone</a> JavaScript 库。TinyMCE、jQuery、jQuery UI 和 SimplePie 升级到"
 "了当前最新版本。"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:133
 msgid "Return to Updates"
 msgstr "返回“更新”"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:133
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "返回“仪表盘” &rarr; “更新”"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:137
 msgid "Go to Dashboard &rarr; Home"
 msgstr "前往“仪表盘” &rarr; “首页”"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:137
 msgid "Go to Dashboard"
 msgstr "前往“仪表盘”"
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:148
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "维护更新"
 
-#: wp-admin/about.php:141
+#: wp-admin/about.php:149
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "安全更新"
 
-#: wp-admin/about.php:142
-msgid "Maintenance and Security Release"
-msgid_plural "Maintenance and Security Releases"
-msgstr[0] "维护和安全更新"
-
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:145
+#: wp-admin/about.php:153
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:149
+#: wp-admin/about.php:157
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:153
+#: wp-admin/about.php:161
 msgid ""
 "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural ""
 "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
-
-#. translators: 1: WordPress version number, 2: plural number of bugs. More
-#. than one security issue.
-#: wp-admin/about.php:157
-msgid ""
-"<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
-"bug."
-msgid_plural ""
-"<strong>Version %1$s</strong> addressed some security issues and fixed %2$s "
-"bugs."
-msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
-
-#: wp-admin/about.php:160
-msgid "For more information, see <a href=\"%s\">the release notes</a>."
-msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
 #: wp-admin/admin-footer.php:21
 msgid ""
@@ -2937,7 +2938,7 @@ msgid "Visit %s"
 msgstr "访问 %s"
 
 #: wp-admin/includes/class-wp-list-table.php:378
-#: wp-admin/includes/media.php:2030
+#: wp-admin/includes/media.php:2033
 msgid "Show all dates"
 msgstr "显示所有日期"
 
@@ -3612,7 +3613,7 @@ msgid "Main Page (no parent)"
 msgstr "主页面（无父级）"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:873
-#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1824
+#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1827
 #: wp-admin/includes/meta-boxes.php:651 wp-admin/includes/meta-boxes.php:652
 msgid "Order"
 msgstr "排序"
@@ -3809,7 +3810,7 @@ msgid "Download failed."
 msgstr "下载失败。"
 
 #: wp-admin/includes/class-wp-upgrader.php:52
-#: wp-admin/includes/update-core.php:663
+#: wp-admin/includes/update-core.php:665
 msgid "Installing the latest version&#8230;"
 msgstr "正在安装最新版本&#8230;"
 
@@ -3819,7 +3820,7 @@ msgstr "目标目录已存在。"
 
 #: wp-admin/includes/class-wp-upgrader.php:54 wp-admin/includes/file.php:616
 #: wp-admin/includes/file.php:708 wp-admin/includes/file.php:767
-#: wp-admin/includes/update-core.php:813
+#: wp-admin/includes/update-core.php:828
 msgid "Could not create directory."
 msgstr "无法创建目录。"
 
@@ -4440,8 +4441,8 @@ msgstr "允许使用"
 
 #: wp-admin/includes/dashboard.php:1146
 msgid ""
-"<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s%%)"
-"</a>"
+"<a href=\"%1$s\" title=\"Manage Uploads\" class=\"musublink\">%2$sMB (%3$s%"
+"%)</a>"
 msgstr ""
 "<a href=\"%1$s\" title=\"管理文件上传\" class=\"musublink\">%2$sMB (%3$s%%)</"
 "a>"
@@ -4769,8 +4770,8 @@ msgid "Could not extract file from archive."
 msgstr "无法从压缩文件解压缩。"
 
 #: wp-admin/includes/file.php:635 wp-admin/includes/file.php:721
-#: wp-admin/includes/file.php:762 wp-admin/includes/update-core.php:636
-#: wp-admin/includes/update-core.php:716 wp-admin/includes/update-core.php:808
+#: wp-admin/includes/file.php:762 wp-admin/includes/update-core.php:638
+#: wp-admin/includes/update-core.php:731 wp-admin/includes/update-core.php:823
 msgid "Could not copy file."
 msgstr "无法复制文件。"
 
@@ -5177,23 +5178,23 @@ msgstr "文件名返回了空的标题。"
 msgid "Location of the uploaded file."
 msgstr "上传文件的位置。"
 
-#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2146
+#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2149
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "图像的替代文本，例如“蒙娜丽莎”"
 
-#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1810
+#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1813
 msgid "Show"
 msgstr "显示"
 
-#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1811
+#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1814
 msgid "Hide"
 msgstr "隐藏"
 
-#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2364
+#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2367
 msgid "File name:"
 msgstr "文件名："
 
-#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2367
+#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2370
 msgid "File type:"
 msgstr "文件类型："
 
@@ -5201,12 +5202,12 @@ msgstr "文件类型："
 msgid "Upload date:"
 msgstr "上传日期："
 
-#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2377
+#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2380
 msgid "Dimensions:"
 msgstr "尺寸："
 
-#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2176
-#: wp-admin/includes/media.php:2182
+#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2179
+#: wp-admin/includes/media.php:2185
 msgid "Insert into Post"
 msgstr "插入到文章"
 
@@ -5219,16 +5220,16 @@ msgstr "您将删除 <strong>%s</strong>。"
 msgid "Continue"
 msgstr "继续"
 
-#: wp-admin/includes/media.php:1550
+#: wp-admin/includes/media.php:1553
 msgid "Drop files here"
 msgstr "将文件拖到这里"
 
-#: wp-admin/includes/media.php:1551
+#: wp-admin/includes/media.php:1554
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "或"
 
-#: wp-admin/includes/media.php:1573
+#: wp-admin/includes/media.php:1576
 msgid ""
 "Your browser has some limitations uploading large files with the multi-file "
 "uploader. Please use the browser uploader for files over 100MB."
@@ -5236,124 +5237,124 @@ msgstr ""
 "您的浏览器对多文件上传工具的上传文件大小有限制。请使用浏览器上传工具来上传大"
 "于 100MB 的文件。"
 
-#: wp-admin/includes/media.php:1607
+#: wp-admin/includes/media.php:1610
 msgid "Add media files from your computer"
 msgstr "从您的计算机添加媒体文件"
 
-#: wp-admin/includes/media.php:1636 wp-admin/includes/media.php:1834
-#: wp-admin/includes/media.php:2080
+#: wp-admin/includes/media.php:1639 wp-admin/includes/media.php:1837
+#: wp-admin/includes/media.php:2083
 msgid "Save all changes"
 msgstr "保存所有更改"
 
-#: wp-admin/includes/media.php:1671
+#: wp-admin/includes/media.php:1674
 msgid "Insert media from another website"
 msgstr "插入其它站点上的媒体"
 
-#: wp-admin/includes/media.php:1809
+#: wp-admin/includes/media.php:1812
 msgid "All Tabs:"
 msgstr "所有单项："
 
-#: wp-admin/includes/media.php:1813
+#: wp-admin/includes/media.php:1816
 msgid "Sort Order:"
 msgstr "排序："
 
-#: wp-admin/includes/media.php:1814 wp-admin/includes/media.php:1882
+#: wp-admin/includes/media.php:1817 wp-admin/includes/media.php:1885
 msgid "Ascending"
 msgstr "升序"
 
-#: wp-admin/includes/media.php:1815 wp-admin/includes/media.php:1885
+#: wp-admin/includes/media.php:1818 wp-admin/includes/media.php:1888
 msgid "Descending"
 msgstr "降序"
 
-#: wp-admin/includes/media.php:1816
+#: wp-admin/includes/media.php:1819
 msgctxt "verb"
 msgid "Clear"
 msgstr "不排序"
 
-#: wp-admin/includes/media.php:1823 wp-admin/menu.php:63 wp-admin/menu.php:215
+#: wp-admin/includes/media.php:1826 wp-admin/menu.php:63 wp-admin/menu.php:215
 msgid "Media"
 msgstr "多媒体"
 
-#: wp-admin/includes/media.php:1846
+#: wp-admin/includes/media.php:1849
 msgid "Link thumbnails to:"
 msgstr "链接缩略图到："
 
-#: wp-admin/includes/media.php:1851
+#: wp-admin/includes/media.php:1854
 msgid "Image File"
 msgstr "图像文件"
 
-#: wp-admin/includes/media.php:1861
+#: wp-admin/includes/media.php:1864
 msgid "Order images by:"
 msgstr "图像排序依据："
 
-#: wp-admin/includes/media.php:1866
+#: wp-admin/includes/media.php:1869
 msgid "Menu order"
 msgstr "菜单排序"
 
-#: wp-admin/includes/media.php:1868
+#: wp-admin/includes/media.php:1871
 msgid "Date/Time"
 msgstr "日期和时间"
 
-#: wp-admin/includes/media.php:1869
+#: wp-admin/includes/media.php:1872
 msgid "Random"
 msgstr "随机"
 
-#: wp-admin/includes/media.php:1877
+#: wp-admin/includes/media.php:1880
 msgid "Order:"
 msgstr "排序："
 
-#: wp-admin/includes/media.php:1892
+#: wp-admin/includes/media.php:1895
 msgid "Gallery columns:"
 msgstr "相册列数："
 
-#: wp-admin/includes/media.php:1913
+#: wp-admin/includes/media.php:1916
 msgid "Update gallery settings"
 msgstr "更新相册设置"
 
-#: wp-admin/includes/media.php:1961 wp-admin/includes/media.php:1963
+#: wp-admin/includes/media.php:1964 wp-admin/includes/media.php:1966
 #: wp-admin/upload.php:238
 msgid "Search Media"
 msgstr "搜索媒体"
 
-#: wp-admin/includes/media.php:1986
+#: wp-admin/includes/media.php:1989
 msgid "All Types"
 msgstr "所有类型"
 
-#: wp-admin/includes/media.php:2009 wp-admin/includes/nav-menu.php:627
+#: wp-admin/includes/media.php:2012 wp-admin/includes/nav-menu.php:627
 #: wp-admin/includes/nav-menu.php:840
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: wp-admin/includes/media.php:2010 wp-admin/includes/nav-menu.php:628
+#: wp-admin/includes/media.php:2013 wp-admin/includes/nav-menu.php:628
 #: wp-admin/includes/nav-menu.php:841
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-admin/includes/media.php:2050
+#: wp-admin/includes/media.php:2053
 msgid "Filter &#187;"
 msgstr "筛选 &#187;"
 
-#: wp-admin/includes/media.php:2100
+#: wp-admin/includes/media.php:2103
 msgid "Image Caption"
 msgstr "图像说明"
 
-#: wp-admin/includes/media.php:2121
+#: wp-admin/includes/media.php:2124
 msgid "Audio, Video, or Other File"
 msgstr "音频、视频等文件"
 
-#: wp-admin/includes/media.php:2139
+#: wp-admin/includes/media.php:2142
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "链接的文字，例如：“Ransom Demands（PDF）”"
 
-#: wp-admin/includes/media.php:2165
+#: wp-admin/includes/media.php:2168
 msgid "Link Image To:"
 msgstr "将图像链接到："
 
-#: wp-admin/includes/media.php:2170
+#: wp-admin/includes/media.php:2173
 msgid "Link to image"
 msgstr "链接到图像"
 
-#: wp-admin/includes/media.php:2205
+#: wp-admin/includes/media.php:2208
 msgid ""
 "You are using the multi-file uploader. Problems? Try the <a href=\"%1$s\" "
 "target=\"%2$s\">browser uploader</a> instead."
@@ -5361,7 +5362,7 @@ msgstr ""
 "您正在使用多文件上传工具。遇到问题？请尝试使用<a href=\"#\">标准浏览器上传工"
 "具</a> 。"
 
-#: wp-admin/includes/media.php:2219
+#: wp-admin/includes/media.php:2222
 msgid ""
 "You are using the browser&#8217;s built-in file uploader. The WordPress "
 "uploader includes multiple file selection and drag and drop capability. <a "
@@ -5372,18 +5373,18 @@ msgstr ""
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
-#: wp-admin/includes/media.php:2250
+#: wp-admin/includes/media.php:2253
 msgid ""
 "Scale images to match the large size selected in %1$simage options%2$s (%3$d "
 "&times; %4$d)."
 msgstr ""
 "按照%1$s图像选项%2$s的设置，将图像剪裁到“大尺寸”（%3$d &times; %4$d）。"
 
-#: wp-admin/includes/media.php:2262
+#: wp-admin/includes/media.php:2265
 msgid "Sorry, you have used all of your storage quota of %s MB."
 msgstr "抱歉，您的储存限额已用完（%s MB）。"
 
-#: wp-admin/includes/media.php:2360
+#: wp-admin/includes/media.php:2363
 msgid "File URL:"
 msgstr "文件 URL："
 
@@ -6990,15 +6991,15 @@ msgstr "照片博客"
 msgid "Seasonal"
 msgstr "四季"
 
-#: wp-admin/includes/update-core.php:618
+#: wp-admin/includes/update-core.php:619
 msgid "Verifying the unpacked files&#8230;"
 msgstr "正在校验解压的文件&#8230;"
 
-#: wp-admin/includes/update-core.php:629
+#: wp-admin/includes/update-core.php:630
 msgid "The update could not be unpacked"
 msgstr "无法解压升级包"
 
-#: wp-admin/includes/update-core.php:657
+#: wp-admin/includes/update-core.php:659
 msgid ""
 "The update cannot be installed because WordPress %1$s requires PHP version "
 "%2$s or higher and MySQL version %3$s or higher. You are running PHP version "
@@ -7007,7 +7008,7 @@ msgstr ""
 "升级无法完成，因为 WordPress %1$s 需要 PHP %2$s 或更高版本和 MySQL %3$s 或更"
 "高版本。而您当前的 PHP 版本为 %4$s，MySQL 版本为 %5$s。"
 
-#: wp-admin/includes/update-core.php:659
+#: wp-admin/includes/update-core.php:661
 msgid ""
 "The update cannot be installed because WordPress %1$s requires PHP version "
 "%2$s or higher. You are running version %3$s."
@@ -7015,7 +7016,7 @@ msgstr ""
 "无法安装更新，因为 WordPress %1$s 要求 PHP 版本 %2$s 或更高，而您运行的 PHP "
 "版本为 %3$s。"
 
-#: wp-admin/includes/update-core.php:661
+#: wp-admin/includes/update-core.php:663
 msgid ""
 "The update cannot be installed because WordPress %1$s requires MySQL version "
 "%2$s or higher. You are running version %3$s."
@@ -7023,15 +7024,15 @@ msgstr ""
 "无法安装更新，因为 WordPress %1$s 要求 MySQL 版本 %2$s 或更高，而您运行的 "
 "MySQL 版本为 %3$s。"
 
-#: wp-admin/includes/update-core.php:746
+#: wp-admin/includes/update-core.php:761
 msgid "Upgrading database&#8230;"
 msgstr "正在升级数据库&#8230;"
 
-#: wp-admin/includes/update-core.php:848 wp-admin/update-core.php:356
+#: wp-admin/includes/update-core.php:863 wp-admin/update-core.php:356
 msgid "WordPress updated successfully"
 msgstr "WordPress 升级成功"
 
-#: wp-admin/includes/update-core.php:851 wp-admin/update-core.php:357
+#: wp-admin/includes/update-core.php:866 wp-admin/update-core.php:357
 msgid ""
 "Welcome to WordPress %1$s. You will be redirected to the About WordPress "
 "screen. If not, click <a href=\"%2$s\">here</a>."
@@ -7039,7 +7040,7 @@ msgstr ""
 "欢迎使用 WordPress %1$s。我们将带您到“关于 WordPress”页面。如果没有自动跳转，"
 "请<a href=\"%2$s\">点击这里</a>。"
 
-#: wp-admin/includes/update-core.php:852 wp-admin/update-core.php:358
+#: wp-admin/includes/update-core.php:867 wp-admin/update-core.php:358
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "欢迎使用 WordPress %1$s。<a href=\"%2$s\">了解更多</a>。"
 
@@ -9720,8 +9721,8 @@ msgid ""
 "other plugins. Sometimes, though, a plugin&#8217;s code will get in the way "
 "of another plugin, causing compatibility issues. If your site starts doing "
 "strange things, this may be the problem. Try deactivating all your plugins "
-"and re-activating them in various combinations until you isolate which one"
-"(s) caused the issue."
+"and re-activating them in various combinations until you isolate which "
+"one(s) caused the issue."
 msgstr ""
 "通常每个插件都能和其他插件以及 WordPress 核心程序正常工作。但是，有的时候某些"
 "插件会和其他插件相冲突，进而产生兼容性问题。如果您的站点工作异常，可能是这个"
@@ -11831,15 +11832,13 @@ msgid ""
 "your site protected from spam even while you sleep. To get started: 1) Click "
 "the \"Activate\" link to the left of this description, 2) <a href=\"http://"
 "akismet.com/get/?return=true\">Sign up for an Akismet API key</a>, and 3) Go "
-"to your <a href=\"admin.php?page=akismet-key-config\">Akismet configuration</"
-"a> page, and save your API key."
+"to your Akismet configuration page, and save your API key."
 msgstr ""
-"Akismet 在全球有数以百万计的用户，它是最方便快捷的<strong>博客垃圾评论 / "
+"全球拥有数以百万计用户的 Akismet 是最方便快捷的<strong>博客垃圾评论 / "
 "trackback 屏蔽解决方案</strong>。它全天候保护您的站点（包括您睡觉的时候）。要"
 "开始使用 Akismet：1) 点击左侧的“启用”链接，2) <a href=\"http://akismet.com/"
-"get/?return=true\">注册一个 Akismet API 密钥（key）</a>，3) 前往 <a href="
-"\"admin.php?page=akismet-key-config\">“Akismet 配置”</a>页面，输入并保存您的 "
-"API 密钥。"
+"get/?return=true\">注册一个 Akismet API 密钥（key）</a>，3) 前往“Akismet 配"
+"置”页面，输入并保存您的 API 密钥。"
 
 #. Author of the plugin/theme
 msgid "Automattic"
