@@ -356,7 +356,7 @@ function dtheme_comment_list($comment, $args, $depth) {
 		}
 		//信息
 		echo '<div class="c-meta">';
-			 echo '<span class="c-author"><a href="'; echo comment_author_url(); echo '" target="_blank" rel="external nofollow" class="url">'; echo comment_author(); echo '</a></span>'; echo get_comment_time('m-d H:i '); echo time_ago(); 
+			 echo '<span class="c-author"><a href="http://www.longsays.com/wp-content/sky.php?'; echo comment_author_url(); echo '" target="_blank" rel="external nofollow" class="url">'; echo comment_author(); echo '</a></span>'; echo get_comment_time('m-d H:i '); echo time_ago(); 
 			if ($comment->comment_approved !== '0'){ 
 				echo comment_reply_link( array_merge( $args, array('add_below' => 'div-comment', 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); 
 				echo edit_comment_link(__('(编辑)'),' - ','');
@@ -364,5 +364,23 @@ function dtheme_comment_list($comment, $args, $depth) {
 		echo '</div>';
 	echo '</div>';
 }
+
+/*sky_redirect_link*/
+function sky_redirect_link($redirect_link = ''){
+    $redirect_link=str_replace('href="', 'target="_blank" href="'.get_bloginfo('url').'/wp-content/sky.php?', $redirect_link);
+    $redirect_link=str_replace("href='", "target='_blank' href='".get_bloginfo('url')."/wp-content/sky.php?", $redirect_link);
+    return $redirect_link;
+}
+add_filter('the_content', 'sky_redirect_link');   //应用于文章区域
+add_filter('comment_text', 'sky_redirect_link');
+
+function autoicon($text) {
+$return = str_replace('<a href=', '<a class="external" href=', $text);
+$return = str_replace('<a class="external" href="http://www.longsays.com', '<a href="http://www.longsays.com', $return);
+$return = str_replace('<a class="external" href="#', '<a href="#', $return);
+return $return;
+}
+add_filter('the_content', 'autoicon');   //应用于文章区域
+add_filter('comment_text', 'autoicon');   //应用于评论区域
 
 ?>
