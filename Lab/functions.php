@@ -131,7 +131,7 @@ function dm_the_thumbnail() {
         if($n > 0){
             echo '<a href="'.get_permalink().'" class="pic"><img src="'.$strResult[1][0].'" alt="'.trim(strip_tags( $post->post_title )).'" /></a>';  
         }else {
-            echo '<a href="'.get_permalink().'" class="pic"><img src="'.get_bloginfo('template_url').'/img/thumbnail.png" alt="'.trim(strip_tags( $post->post_title )).'" /></a>';  
+            echo '<a href="'.get_permalink().'" class="pic"><img src="http://longsays.b0.upaiyun.com/img/thumbnail.png" alt="'.trim(strip_tags( $post->post_title )).'" /></a>';  
         }  
     }  
 }
@@ -296,7 +296,7 @@ function dtheme_avatar($avatar) {
 	if ( !is_file($e) || (time() - filemtime($e)) > $t ) { 
 		copy(htmlspecialchars_decode($g), $e);
 	} else  $avatar = strtr($avatar, array($g => $w.'/avatar/'.$f));
-	if (filesize($e) < 500) copy(get_bloginfo('template_directory').'/img/default.png', $e);
+	if (filesize($e) < 500) copy(get_bloginfo('template_directory').'/img/love.jpg', $e);
 	return $avatar;
 }
 
@@ -356,7 +356,7 @@ function dtheme_comment_list($comment, $args, $depth) {
 		}
 		//信息
 		echo '<div class="c-meta">';
-			 echo '<span class="c-author"><a href="http://www.longsays.com/wp-content/sky.php?'; echo comment_author_url(); echo '" target="_blank" rel="external nofollow" class="url">'; echo comment_author(); echo '</a></span>'; echo get_comment_time('m-d H:i '); echo time_ago(); 
+			 echo '<span class="c-author"><a href="http://www.longsays.com/wp-content/?'; echo comment_author_url(); echo '" target="_blank" rel="external nofollow" class="url">'; echo comment_author(); echo '</a></span>'; echo get_comment_time('m-d H:i '); echo time_ago(); 
 			if ($comment->comment_approved !== '0'){ 
 				echo comment_reply_link( array_merge( $args, array('add_below' => 'div-comment', 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); 
 				echo edit_comment_link(__('(编辑)'),' - ','');
